@@ -1,0 +1,31 @@
+{
+  "name": "js-learning-module-06-11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SydorenkoKateryna/js-learning-module-06-11.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SydorenkoKateryna/js-learning-module-06-11/issues"
+  },
+  "homepage": "https://github.com/SydorenkoKateryna/js-learning-module-06-11#readme",
+  "dependencies": {
+    "joi": "^17.8.3",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2"
+  }
+}
